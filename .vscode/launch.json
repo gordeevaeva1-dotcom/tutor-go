@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    // нужно для запуска программы в режиме отладки (достаточно нажать F5)
+    {
+      "name": "Run",
+      "type": "go",
+      "request": "launch",
+      "mode": "debug",
+      "cwd": "${workspaceFolder}", // где будет исполняться программа
+      "program": "${workspaceFolder}/cmd/main.go", // пусть к main файлу
+      "output": "${workspaceFolder}/bin/app-d", // куда будет скомпилена програмка
+      "console": "integratedTerminal" 
+    }, 
+  ]
+}
