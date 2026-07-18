@@ -19,10 +19,10 @@ var (
 	f float32 = 3.14
 )
 
-func pickMe(god string, arg2, arg3 int) (int, string) {
+func pickMe(god string, duck, arg3 int) (int, string) {
 
-	fmt.Println(god, arg2, arg3)
-	return arg2 + arg3, god + " пидор"
+	fmt.Println(god, duck, arg3)
+	return duck + arg3, god + " пидор"
 }
 func main() {
 	var a = 0
